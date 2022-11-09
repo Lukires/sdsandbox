@@ -45,7 +45,8 @@ namespace tk
 
                 }
                 catch (Exception e) { Debug.LogError(e); }
-
+                // TEST ADD LEVEL
+                scene_names.Add("delta");
                 GlobalState.sceneNames = scene_names.ToArray();
 
             }
